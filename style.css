@@ -69,6 +69,15 @@ main {
     padding: 0 1.6em;
 }
 
+#email:focus, #senha:focus  {
+    outline: none;
+    border-color: #8684ff;
+}
+
+#login:active {
+    background-color: #3485e9;
+}
+
 #checkbox {
     margin-right: 0.4em;
 }
@@ -102,3 +111,17 @@ main {
 
 }
 
+@media (max-width: 900px) {
+    main {
+        flex-direction: column;
+    }
+
+    .container2 {
+        display: none;
+    }
+
+    .formulario-login{
+        width: 85%;
+    }
+
+}
